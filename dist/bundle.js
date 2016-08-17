@@ -1,0 +1,2 @@
+!function(t){function e(o){if(n[o])return n[o].exports;var r=n[o]={exports:{},id:o,loaded:!1};return t[o].call(r.exports,r,r.exports,e),r.loaded=!0,r.exports}var n={};return e.m=t,e.c=n,e.p="/static/",e(0)}([function(t,e,n){"use strict";var o=n(1);!function(){var t=document.getElementById("welcomeBtn"),e=document.getElementById("welcomeMsg");t.addEventListener("click",function(){o(e)})}()},function(t,e){"use strict";function n(t){t.innerHTML="Welcome to WebStorm"}t.exports=n}]);
+//# sourceMappingURL=bundle.js.map

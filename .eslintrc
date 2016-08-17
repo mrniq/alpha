@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "jsx-a11y"
+  ],
+  "rules": {
+    /*"comma-dangle": 0,
+    "react/jsx-no-bind": 0,
+    "react/prefer-stateless-function": 0,
+    "jsx-quotes": [2, "prefer-single"],
+    "jsx-a11y/img-has-alt": [2, "Image"],
+    */
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "max-len": 0,
+    "no-param-reassign":0
+  }
+}
